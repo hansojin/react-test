@@ -4,12 +4,12 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import LoginPage from './JSX/LoginPage';
+import SignUp from './JSX/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginPage />
+    <SignUp />
   </React.StrictMode>
 );
 
