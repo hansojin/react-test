@@ -4,8 +4,7 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import NotificationList from './Ch06/NotificationList';
-
+import NotificationList from './JSX/NotificationList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -4,15 +4,15 @@ import Notification from "./Notification";
 const reservedNotifications = [
     {
         id: 1,
-        message: "안녕하세요, 오늘 일정을 알려드립니다.",
+        message: "HI!",
     },
     {
         id: 2,
-        message: "점심식사 시간입니다.",
+        message: "This is SJ.",
     },
     {
         id: 3,
-        message: "이제 곧 미팅이 시작됩니다.",
+        message: "I know I can do it!!!",
     },
 ];
 
