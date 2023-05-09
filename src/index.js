@@ -4,12 +4,12 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import CardProfile from './JSX/CardProfile';
+import ThemeToggle from './JSX/ThemeToggle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CardProfile />
+    <ThemeToggle />
   </React.StrictMode>
 );
 
