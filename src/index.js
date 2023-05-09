@@ -4,12 +4,12 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ThemeToggle from './JSX/ThemeToggle';
+import Blocks from './JSX/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemeToggle />
+    <Blocks />
   </React.StrictMode>
 );
 
