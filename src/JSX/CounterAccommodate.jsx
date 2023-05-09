@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import useCounter from "./useCounter";
+import Counter from "./Counter";
 
 const MAX_CAPACITY = 10;
 
-function Accommodate(props) {
+function CounterAccommodate(props) {
     const [isFull, setIsFull] = useState(false);
-    const [count, increaseCount, decreaseCount] = useCounter(0);
+    const [count, increaseCount, decreaseCount] = Counter(0);
 
     useEffect(() => {
         console.log("======================");
@@ -30,4 +30,4 @@ function Accommodate(props) {
     );
 }
 
-export default Accommodate;
+export default CounterAccommodate;
