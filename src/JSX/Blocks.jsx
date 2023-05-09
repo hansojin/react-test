@@ -44,7 +44,6 @@ function Blocks(props) {
             {blockItems.map((blockItem) => {
                 return (
                     <Block
-                        key={blockItems.label}
                         padding={blockItem.padding}
                         backgroundColor={blockItem.backgroundColor}
                     >
